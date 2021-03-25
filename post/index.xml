@@ -28,7 +28,12 @@ Furthermore, we propose PhantomDance, the first large-scale dance dataset produc
 Extensive experiments demonstrate that the proposed approach can generate fluent, elegant, performative and beat-synchronized 3D dances,
 which significantly surpasses previous works quantitatively and qualitatively.&lt;/p&gt;
 &lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;p&gt;&lt;video src=&#34;https://huiye-tech.github.io/files/DanceNet3D_results.mp4&#34; width=&#34;1250px&#34; height=&#34;360px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;h3 id=&#34;demo-videos&#34;&gt;Demo Videos&lt;/h3&gt;
+&lt;p&gt;&lt;video src=&#34;https://huiye-tech.github.io/files/MangZhong.mp4&#34; width=&#34;1280px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;&lt;video src=&#34;https://huiye-tech.github.io/files/Girls.mp4&#34; width=&#34;1280px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;&lt;video src=&#34;https://huiye-tech.github.io/files/NiZuiZuiZuiZhongYao.mp4&#34; width=&#34;1280px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;h3 id=&#34;comparison&#34;&gt;Comparison&lt;/h3&gt;
+&lt;p&gt;&lt;video src=&#34;https://huiye-tech.github.io/files/DanceNet3D_results.mp4&#34; width=&#34;2400px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
 &lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;p&gt;We will realease 100 of the dataset as the PhantomDance-100 Dataset, which has 794776 frames(about 3.7 hours).&lt;/p&gt;
 &lt;p&gt;To obtain the PhantomDance-100 Dataset, please send an email to &lt;a href=&#34;mailto:research@huiye.tech&#34;&gt;research@huiye.tech&lt;/a&gt; with the following information: (1) your name, title, affiliation (if you are a student, please ask your advisor to contact us) (2) your intended use of the data&lt;/p&gt;
