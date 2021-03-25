@@ -18,7 +18,8 @@
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       <guid>/post/dancenet3d/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;In contrast to previous works that define the problem as generation of frames of motion state parameters,
+&lt;p&gt;&lt;img src=&#34;https://huiye-tech.github.io/files/overview.jpg&#34; alt=&#34;overview&#34;&gt;
+In contrast to previous works that define the problem as generation of frames of motion state parameters,
 we formulate the task as a prediction of motion curves between key poses, which is inspired by the animation industry practice.
 The proposed framework, named DanceNet3D, first generates key poses on beats of the given music and then predicts the in-between motion curves.
 DanceNet3D adopts the encoder-decoder architecture and the adversarial schemes for training.
