@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Phantom AI</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Phantom AI</description>
+    <title>Artificial Intelligence | Phantom AI</title>
+    <link>/tag/artificial-intelligence/</link>
+      <atom:link href="/tag/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <description>Artificial Intelligence</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_huef2d4e74d8587d735b1c4cc3154494f1_13577_512x512_fill_lanczos_center_2.png</url>
-      <title>Phantom AI</title>
-      <link>/</link>
+      <title>Artificial Intelligence</title>
+      <link>/tag/artificial-intelligence/</link>
     </image>
     
     <item>
@@ -33,22 +33,6 @@ which significantly surpasses previous works quantitatively and qualitatively.&l
 &lt;p&gt;We will realease 100 of the dataset as the PhantomDance-100 Dataset, which has 794776 frames(about 3.7 hours).&lt;/p&gt;
 &lt;p&gt;To obtain the PhantomDance-100 Dataset, please send an email to &lt;a href=&#34;mailto:research@huiye.tech&#34;&gt;research@huiye.tech&lt;/a&gt; with the following information: (1) your name, title, affiliation (if you are a student, please ask your advisor to contact us) (2) your intended use of the data&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/admin/config.yml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/admin/config.yml</guid>
-      <description></description>
     </item>
     
   </channel>
