@@ -38,7 +38,9 @@ which significantly surpasses previous works quantitatively and qualitatively.&l
 &lt;p&gt;&lt;video src=&#34;https://huiye-tech.github.io/files/DanceNet3D_results.mp4&#34; width=&#34;2400px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
 &lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;p&gt;We will realease 100 of the dataset as the PhantomDance-100 Dataset, which has 794776 frames(about 3.7 hours).&lt;/p&gt;
-&lt;p&gt;To obtain the PhantomDance-100 Dataset, please send an email to &lt;a href=&#34;mailto:research@huiye.tech&#34;&gt;research@huiye.tech&lt;/a&gt; with the following information: (1) your name, title, affiliation (if you are a student, please ask your advisor to contact us) (2) your intended use of the data&lt;/p&gt;
+&lt;p&gt;To obtain the PhantomDance-100 Dataset, please send an email to &lt;a href=&#34;mailto:research@huiye.tech&#34;&gt;research@huiye.tech&lt;/a&gt; with the following information:&lt;br&gt;
+(1) your name, title, affiliation (if you are a student, please ask your advisor to contact us)&lt;br&gt;
+(2) your intended use of the data&lt;/p&gt;
 </description>
     </item>
     
