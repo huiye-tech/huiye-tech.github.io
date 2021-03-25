@@ -14,9 +14,9 @@
     
     <item>
       <title>DanceNet3D: Music Based Dance Generation with Parametric Motion Transformer</title>
-      <link>/post/dancenet3d/</link>
+      <link>/project/dancenet3d/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/post/dancenet3d/</guid>
+      <guid>/project/dancenet3d/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://huiye-tech.github.io/files/overview.jpg&#34; alt=&#34;overview&#34;&gt;
 In contrast to previous works that define the problem as generation of frames of motion state parameters,
