@@ -14,9 +14,9 @@
     
     <item>
       <title>DanceNet3D: Music Based Dance Generation with Parametric Motion Transformer</title>
-      <link>/post/getting-started/</link>
+      <link>/post/dancenet3d/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
+      <guid>/post/dancenet3d/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;In contrast to previous works that define the problem as generation of frames of motion state parameters,
 we formulate the task as a prediction of motion curves between key poses, which is inspired by the animation industry practice.
