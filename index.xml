@@ -27,6 +27,8 @@ In MoTrans we introduce the kinematic correlation by the Kinematic Chain Network
 Furthermore, we propose PhantomDance, the first large-scale dance dataset produced by professional animatiors, with accurate synchronization with music.
 Extensive experiments demonstrate that the proposed approach can generate fluent, elegant, performative and beat-synchronized 3D dances,
 which significantly surpasses previous works quantitatively and qualitatively.&lt;/p&gt;
+&lt;h5 id=&#34;paper-linkhttpsarxivorgabs210310206&#34;&gt;&lt;a href=&#34;https://arxiv.org/abs/2103.10206&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper Link&lt;/a&gt;&lt;/h5&gt;
+&lt;h5 id=&#34;project-linkhttpsgithubcomhuiye-techdancenet3d&#34;&gt;&lt;a href=&#34;https://github.com/huiye-tech/DanceNet3D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Project Link&lt;/a&gt;&lt;/h5&gt;
 &lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
 &lt;h3 id=&#34;demo-videos&#34;&gt;Demo Videos&lt;/h3&gt;
 &lt;p&gt;&lt;video src=&#34;https://huiye-tech.github.io/files/MangZhong.mp4&#34; width=&#34;1280px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
