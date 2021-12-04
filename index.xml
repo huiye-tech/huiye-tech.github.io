@@ -5,44 +5,54 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Phantom AI</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 18 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_huef2d4e74d8587d735b1c4cc3154494f1_13577_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_huef2d4e74d8587d735b1c4cc3154494f1_13577_512x512_fill_lanczos_center_3.png</url>
       <title>Phantom AI</title>
       <link>/</link>
     </image>
     
     <item>
-      <title>DanceNet3D: Music Based Dance Generation with Parametric Motion Transformer</title>
-      <link>/project/dancenet3d/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>/project/dancenet3d/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://huiye-tech.github.io/files/overview.jpg&#34; alt=&#34;overview&#34;&gt;
-In contrast to previous works that define the problem as generation of frames of motion state parameters,
-we formulate the task as a prediction of motion curves between key poses, which is inspired by the animation industry practice.
-The proposed framework, named DanceNet3D, first generates key poses on beats of the given music and then predicts the in-between motion curves.
-DanceNet3D adopts the encoder-decoder architecture and the adversarial schemes for training.
-The decoders in DanceNet3D are constructed on MoTrans, a transformer tailored for motion generation.
-In MoTrans we introduce the kinematic correlation by the Kinematic Chain Networks, and we also propose the Learned Local Attention module to take the temporal local correlation of human motion into consideration.
-Furthermore, we propose PhantomDance, the first large-scale dance dataset produced by professional animatiors, with accurate synchronization with music.
-Extensive experiments demonstrate that the proposed approach can generate fluent, elegant, performative and beat-synchronized 3D dances,
-which significantly surpasses previous works quantitatively and qualitatively.&lt;/p&gt;
-&lt;h5 id=&#34;paper-linkhttpsarxivorgabs210310206&#34;&gt;&lt;a href=&#34;https://arxiv.org/abs/2103.10206&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper Link&lt;/a&gt;&lt;/h5&gt;
-&lt;h5 id=&#34;project-linkhttpsgithubcomhuiye-techdancenet3d&#34;&gt;&lt;a href=&#34;https://github.com/huiye-tech/DanceNet3D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Project Link&lt;/a&gt;&lt;/h5&gt;
+      <title>DanceFormer: Music Conditioned 3D Dance Generation with Parametric Motion Transformer</title>
+      <link>/post/danceformer/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/post/danceformer/</guid>
+      <description>&lt;h2 id=&#34;pdfhttpsarxivorgabs210310206&#34;&gt;&lt;a href=&#34;https://arxiv.org/abs/2103.10206&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;overview.png&#34; alt=&#34;&#34;&gt;
+Generating 3D dances from music is an emerged research task that benefits a lot of applications in vision and graphics. 
+Previous works treat this task as sequence generation, however, it is challenging to render a music-aligned long-term sequence with high kinematic complexity and coherent movements. 
+In this paper, we reformulate it by a two-stage process, $i.e$, a key pose generation and then an in-between parametric motion curve prediction, where the key poses are easier to be synchronized with the music beats and the parametric curves can be efficiently regressed to render fluent rhythm-aligned movements. 
+We named the proposed method as DanceFormer, which includes two cascading kinematics-enhanced transformer-guided networks (called DanTrans) that tackles each stage, respectively. 
+Furthermore, we propose a large-scale music conditioned 3D dance dataset, called PhantomDance, that is accurately labeled by experimented animators rather than reconstruction or motion capture. 
+This dataset also encodes dances as key poses and parametric motion curves apart from pose sequences, thus benefits the training of our DanceFormer. 
+Extensive experiments demonstrate that the proposed method, even trained by existing datasets, can generate fluent, performative and music-matched 3D dances that surpass previous works quantitatively and qualitatively. 
+Moreover, the proposed DanceFormer, together with the PhantomDance dataset, are seamlessly compatible with industrial animation software, thus facilitate the adaptation for various downstream applications.&lt;/p&gt;
 &lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;h3 id=&#34;demo-videos&#34;&gt;Demo Videos&lt;/h3&gt;
-&lt;p&gt;&lt;video src=&#34;https://huiye-tech.github.io/files/MangZhong.mp4&#34; width=&#34;1280px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
-&lt;p&gt;&lt;video src=&#34;https://huiye-tech.github.io/files/Girls.mp4&#34; width=&#34;1280px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
-&lt;p&gt;&lt;video src=&#34;https://huiye-tech.github.io/files/NiZuiZuiZuiZhongYao.mp4&#34; width=&#34;1280px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
-&lt;h3 id=&#34;comparison&#34;&gt;Comparison&lt;/h3&gt;
-&lt;p&gt;&lt;video src=&#34;https://huiye-tech.github.io/files/DanceNet3D_results.mp4&#34; width=&#34;2400px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;h3 id=&#34;results-comparison&#34;&gt;Results comparison&lt;/h3&gt;
+&lt;p&gt;&lt;video src=&#34;ResultsComparison.mp4&#34; width=&#34;1280px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;!-- &lt;video src=&#34;https://huiye-tech.github.io/files/Girls.mp4&#34; width=&#34;1280px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;
+
+&lt;video src=&#34;https://huiye-tech.github.io/files/NiZuiZuiZuiZhongYao.mp4&#34; width=&#34;1280px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;
+
+### Comparison
+&lt;video src=&#34;https://huiye-tech.github.io/files/DanceNet3D_results.mp4&#34; width=&#34;2400px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt; --&gt;
 &lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
-&lt;p&gt;We will realease 100 of the dataset as the PhantomDance-100 Dataset, which has 794776 frames(about 3.7 hours).&lt;/p&gt;
-&lt;p&gt;To obtain the PhantomDance-100 Dataset, please send an email to &lt;a href=&#34;mailto:research@huiye.tech&#34;&gt;research@huiye.tech&lt;/a&gt; with the following information:&lt;br&gt;
-(1) your name, title, affiliation (if you are a student, please ask your advisor to contact us)&lt;br&gt;
-(2) your intended use of the data&lt;/p&gt;
+&lt;h3 id=&#34;phantomdance-samples&#34;&gt;PhantomDance samples&lt;/h3&gt;
+&lt;p&gt;&lt;video src=&#34;PhantomDance_samples.mp4&#34; width=&#34;1280px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;h3 id=&#34;noises-in-other-datasets&#34;&gt;Noises in other datasets&lt;/h3&gt;
+&lt;p&gt;&lt;video src=&#34;noises_in_other_datasets.mp4&#34; width=&#34;1280px&#34; height=&#34;720px&#34; controls=&#34;controls&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;PhantomDance Dataset contains 260 popular dance videos from more than 13 genres from over 100 different subjects (dancers) on YouTube, NicoNico and Bilibili, which have 9.6 hours in total.&lt;/p&gt;
+&lt;p&gt;To obtain the PhantomDance Dataset, please send an email to &lt;a href=&#34;mailto:research@huiye.tech&#34;&gt;research@huiye.tech&lt;/a&gt; with the following information: (1) your name, title, affiliation (if you are a student, please ask your advisor to contact us) (2) your intended use of the data&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/about/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -50,14 +60,6 @@ which significantly surpasses previous works quantitatively and qualitatively.&l
       <link>/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/admin/config.yml</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/join_us/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/join_us/</guid>
       <description></description>
     </item>
     
